@@ -1,0 +1,55 @@
+/* Página toda */
+body {
+    background-color: #5f5e5e;
+    display: flex;  /* ativa o modo de alinhamento */
+    justify-content: center; /* centraliza na horizontal */
+    align-items: center;
+    height: 100vh; /* ocupa 100% da altura da tela */
+}
+
+/* Caixinha do formulário*/
+.container {
+    background-color: #d8d6cf;
+    padding: 40px; /* espaço interno */
+    width: 350px;
+    text-align: center;
+}
+
+/* Título*/
+h2 {
+    color: #585751;
+}
+
+/* Labels*/
+label {
+    color: black;
+    display: block; /* cada label ocupa sua própria linha */
+    text-align: left;
+}
+
+/* Campo de digitação*/
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    color: black;
+    border: none; /* remove a borda padrão do navegador */
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #ffda74;
+    color: black;
+    border: none;
+}
+
+/* Link */
+a {
+    color: #aaa;
+    display: block;
+    margin-top: 15px;
+}
