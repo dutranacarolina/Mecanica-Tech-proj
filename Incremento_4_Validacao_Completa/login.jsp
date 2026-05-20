@@ -11,7 +11,7 @@
      <div class="container">
         <h2>Login</h2>
         
-        <form action="login.jsp" method="post"> <!-- # envia os dados pra página -->
+        <form action="valida_login.jsp" method="post"> <!-- # envia os dados pra página -->
           <label for="email">E-mail/CPF</label><br>
           <input type="text" id="email" name="email"><br><br>
           <label for="password">Senha</label><br>

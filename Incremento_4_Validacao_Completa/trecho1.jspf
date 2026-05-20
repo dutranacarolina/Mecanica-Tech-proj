@@ -1,0 +1,12 @@
+<%@ page import="java.sql.*" %>
+<%
+    String urlBanco = "jdbc:sqlite:C:/Users/anacr/OneDrive/Area de Trabalho/MecanicaTech_Login/Incremento_4_Validacao_Completa/banco.sqlite";
+    Connection conexao = null;
+    
+    try {
+        Class.forName("org.sqlite.JDBC");
+        conexao = DriverManager.getConnection(urlBanco);
+    } catch(Exception e) {
+        out.println("<p style='color:red;'>Erro de conexão: " + e.getMessage() + "</p>");
+    }
+%>
